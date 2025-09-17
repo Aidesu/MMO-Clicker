@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #171717;
+  color: white;
+}
+
+body a {
+  color: white;
+}
+
+
+header {
+  height: 4rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style: none;
+}
+
+#playerCard {
+  width: 15rem;
+  height: 20rem;
+  background-color: rgb(47, 47, 47);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2rem;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#playerCard img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+#playerCard ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
