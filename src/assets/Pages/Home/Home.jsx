@@ -7,7 +7,7 @@ export default function Home(props) {
             <section>
                 <ul>
                     <li></li>
-                    <li></li> 
+                    <li></li>
                     <li></li>
                     <li></li>
                 </ul>

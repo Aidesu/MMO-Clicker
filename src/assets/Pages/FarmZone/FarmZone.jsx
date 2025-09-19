@@ -1,5 +1,7 @@
 export default function FarmZone() {
-    return(
-        
+    return (
+        <main>
+            <h2>Maps page</h2>
+        </main>
     );
 }
